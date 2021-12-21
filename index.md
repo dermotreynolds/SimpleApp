@@ -1,4 +1,21 @@
-## Welcome to GitHub Pages
+---
+layout: post
+key: blog
+title: "Generating Diagrams with Mermaid in Markdown"
+date: 2018-09-15
+tags: [Mermaid]
+mermaid: true
+---
+
+<div class="mermaid">
+graph LR
+    A --- B
+    B-->C[Happy]
+    B-->D(Sad);
+</div>
+
+
+<!-- ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/dermotreynolds/SimpleApp/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
@@ -42,4 +59,4 @@ graph TD;
     A-->C;
     B-->D;
     C-->D;
-```
+``` -->

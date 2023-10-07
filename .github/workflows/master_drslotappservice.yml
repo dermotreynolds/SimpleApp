@@ -53,5 +53,5 @@ jobs:
         with:
           app-name: 'drslotAppService'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_AAAD486D29844822A66A6514D3E598BB }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_9EA1E7521631451AA7BAA52482BA0011 }}
           package: .
